@@ -1,19 +1,20 @@
-Three types in core of design patterns:
+Three types in core of design patterns(Gang of Four):
 
 - Creational   => Dealing with Complexity of objects creation 
 
-	- prototype
-	- builder
-	- Singleton
-	- Factory
+	- prototype  => Fully initailzed instance to be copied or cloned
+	- builder  => Separates the object construction from its representation
+	- Singleton => Single instance will be created, who ever request for the object the same instance will be sent => Connection instance
+	- Factory = > Create Family of objects. 
 
  
 -Structural    => Structural Dealing with how the classes can be structured
-	- Decorator  - Add responsibility to the object dynamically
-	- Facade  - A single class represents the entire subsystem	
-	-Proxy  => Proxy is 
-	-Adapter  => Matches interfaces of two different classes
-	-Flyweight => Fine grained instace for the efficient usage  => Data base Connection pools
+
+	- Decorator => Add responsibility to the object dynamically
+	- Facade  => A single class represents the entire subsystem	
+	- Proxy  => Proxy is hiding the complexity of the orginal implementation by providing the proxy of that => EJB Remote
+	- Adapter  => Matches interfaces of two different classes
+	- Flyweight => Fine grained instace for the efficient usage  => Data base Connection pools
 	
 - Behavioural  => Behavioural is dealing with how the object behave in a particular situation
 
