@@ -1,4 +1,4 @@
-Three types in core of design patterns (Gang of Four):
+Three types in core of design patterns Gang of Four- GOF:
 
 - Creational   => Dealing with Complexity of objects creation 
 
