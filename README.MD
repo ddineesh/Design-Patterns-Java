@@ -1,10 +1,10 @@
-Three types in core of design patterns(Gang of Four):
+Three types in core of design patterns (Gang of Four):
 
 - Creational   => Dealing with Complexity of objects creation 
 
-	- prototype  => Fully initailzed instance to be copied or cloned
+	- prototype  => Fully initialized instance to be copied or cloned
 	- builder  => Separates the object construction from its representation
-	- Singleton => Single instance will be created, who ever request for the object the same instance will be sent => Connection instance
+	- Singleton => Single instance will be created, whoever request for the object the same instance will be sent => Connection instance
 	- Factory = > Create Family of objects. 
 
  
@@ -12,19 +12,20 @@ Three types in core of design patterns(Gang of Four):
 
 	- Decorator => Add responsibility to the object dynamically
 	- Facade  => A single class represents the entire subsystem	
-	- Proxy  => Proxy is hiding the complexity of the orginal implementation by providing the proxy of that => EJB Remote
+	- Proxy  => Proxy is hiding the complexity of the original implementation by providing the proxy of that => EJB Remote
 	- Adapter  => Matches interfaces of two different classes
-	- Flyweight => Fine grained instace for the efficient usage  => Data base Connection pools
+	- Flyweight => Fine grained instance for the efficient usage  => Data base Connection pools
 	
-- Behavioural  => Behavioural is dealing with how the object behave in a particular situation
+- Behavioral  => behavioral is dealing with how the object behave in a particular situation
 
 	- Chain of responsibility  => way of passing the request between a chain of objects  => Exception handling in Javas
 	- Iterator  => sequentially accessing the elements of collections  => Next/previous button in the remote
-	- state  => Alter an object behaviour when the state changes
+	- state  => Alter an object behavior when the state changes
 	- Strategy => Go with one strategy and add another strategy later => Collection.comparator#compare
 	- Observer  => way of notify the changes in class to no of classes => online biding , notify the bid changes to all the observers
 	- Visitor  => Defines a new operation to a class without changing it
-	- Template Method  => Defer the extact steps  of an alogrithum  to a subclass  => House plan
+	- Template Method  => Defer the exact steps  of an algorithm  to a subclass  => House plan
 	- Command => Encapsulate a command request as an object => All implementation of javan.lang.Runnable
 	- Mememto => Capture and restore an object's internal state => Serialization of Java object
-	- Mediator => Defines simlified communication between classes =>  ESB => is the example for Mediator
+	- Mediator => Defines simplified communication between classes =>  ESB => is the example for Mediator
+
